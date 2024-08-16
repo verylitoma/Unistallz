@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::view("/", "posts.home")->name("home");
+
+route::view("/register", "auth.register")->name("register");
