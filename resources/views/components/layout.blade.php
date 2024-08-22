@@ -17,7 +17,7 @@
             </div>
  
             <div>
-                <a href="login">Log-In</a>
+                <a href="{{route("login")}}">Log-In</a>
             </div>
         </nav>
 
